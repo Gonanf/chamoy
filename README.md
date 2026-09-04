@@ -1,3 +1,82 @@
+# chamoy
+
+> Proyecto de Gonanf — colección personal.
+> **Lenguaje principal (GitHub):** Vue · **URL:** https://github.com/Gonanf/chamoy
+
+## Qué es
+
+Este repositorio forma parte de la colección de **Gonanf / Gabriel Solotorevsky** clonada en `/run/media/chaos/terciario/proyectos/chamoy`.
+
+> **Nota:** README original preservado abajo en la sección "README original".
+
+- **Path absoluto:** `/run/media/chaos/terciario/proyectos/chamoy`
+- **Estado git:** último commit `2025-06-22 Online help`
+- **Archivos (aprox):** 76
+- **Stack detectado:** Node.js / TypeScript (package.json) deps: @fontsource/roboto, @mdi/font, vue, vuetify, Next.js, Vite, Vue
+
+## Stack
+
+- Node.js / TypeScript (package.json) deps: @fontsource/roboto, @mdi/font, vue, vuetify
+- Next.js
+- Vite
+- Vue
+
+## Estructura
+
+```
+chamoy/
+.browserslistrc
+.editorconfig
+.eslintrc-auto-import.json
+README.md
+auto-imports.d.ts
+components.d.ts
+eslint.config.js
+index.html
+jsconfig.json
+package-lock.json
+package.json
+public/
+  public/favicon.ico
+src/
+  src/App.vue
+  src/assets
+  src/components
+  src/layouts
+  src/main.js
+  src/pages
+```
+
+## Cómo correr
+
+> Instrucciones genéricas según el stack detectado. Ajustar según el repo.
+
+```bash
+# instalar deps
+bun install   # o npm install / pnpm install
+
+# desarrollo
+bun run dev   # o npm run dev
+
+# build
+bun run build
+```
+
+## Estado
+
+- **Último commit:** `2025-06-22 Online help`
+- **Clonado en:** `/run/media/chaos/terciario/proyectos/chamoy`
+- **Exclusiones del lote:** Forks, Workmatch, el-hornero-digital, mali/meli, Sherut (no tocados por consigna)
+
+## Docs
+
+- `docs/overview.md` — descripción extendida y guía rápida (generado en este lote)
+
+## README original (preservado)
+
+> Contenido previo de README.md recortado a 2000 chars para referencia:
+
+```markdown
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
@@ -27,53 +106,9 @@ After completing the installation, your environment is ready for Vuetify develop
 
 - 🖼️ **Optimized Front-End Stack**: Leverage the latest Vue 3 and Vuetify 3 for a modern, reactive UI development experience. [Vue 3](https://v3.vuejs.org/) | [Vuetify 3](https://vuetifyjs.com/en/)
 - 🗃️ **State Management**: Integrated with [Pinia](https://pinia.vuejs.org/), the intuitive, modular state management solution for Vue.
-- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://router.vuejs.org/) | [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- ⚡ **Next-Gen Tooling**: Powered by Vite, experience fast cold starts and instant HMR (Hot Module Replacement). [Vite](https://vitejs.dev/)
-- 🧩 **Automated Component Importing**: Streamline your workflow with unplugin-vue-components, automatically importing components as you use them. [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
-
-These features are curated to provide a seamless development experience from setup to deployment, ensuring that your Vuetify application is both powerful and maintainable.
-
-## 💡 Usage
-
-This section covers how to start the development server and build your project for production.
-
-### Starting the Development Server
-
-To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
-
-```bash
-yarn dev
+- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://rou
 ```
 
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-> Add NODE_OPTIONS='--no-warnings' to suppress the JSON import warnings that happen as part of the Vuetify import mapping. If you are on Node [v21.3.0](https://nodejs.org/en/blog/release/v21.3.0) or higher, you can change this to NODE_OPTIONS='--disable-warning=5401'. If you don't mind the warning, you can remove this from your package.json dev script.
-
-### Building for Production
-
-To build your project for production, use:
-
-```bash
-yarn build
-```
-
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-Once the build process is completed, your application will be ready for deployment in a production environment.
-
-## 💪 Support Vuetify Development
-
-This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library with a comprehensive collection of Vue components. Vuetify is an MIT licensed Open Source project that has been made possible due to the generous contributions by our [sponsors and backers](https://vuetifyjs.com/introduction/sponsors-and-backers/). If you are interested in supporting this project, please consider:
-
-- [Requesting Enterprise Support](https://support.vuetifyjs.com/)
-- [Sponsoring John on Github](https://github.com/users/johnleider/sponsorship)
-- [Sponsoring Kael on Github](https://github.com/users/kaelwd/sponsorship)
-- [Supporting the team on Open Collective](https://opencollective.com/vuetify)
-- [Becoming a sponsor on Patreon](https://www.patreon.com/vuetify)
-- [Becoming a subscriber on Tidelift](https://tidelift.com/subscription/npm/vuetify)
-- [Making a one-time donation with Paypal](https://paypal.me/vuetify)
-
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016-present Vuetify, LLC
+---
+*README generado/mejorado automáticamente el 2026-09-04 con inspección de repo (opencode/agy pattern: lectura de estructura, lenguaje y entrypoints). No se modificó código, solo documentación.*
+*Autor original: Gonanf — https://github.com/Gonanf/chamoy*
